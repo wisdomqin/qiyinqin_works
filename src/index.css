@@ -31,3 +31,15 @@ body {
 .social-icon:hover {
   transform: scale(1.1);
 }
+
+.typeform-container {
+  width: 100%;
+  max-width: 600px; /* 调整这个值以改变表单的宽度 */
+}
+
+/* 调整 Typeform 按钮的样式 */
+.typeform-container button {
+  font-size: 0.875rem !important; /* 14px */
+  padding: 0.5rem 1rem !important; /* 8px 16px */
+  border-radius: 0.375rem !important; /* 6px */
+}
